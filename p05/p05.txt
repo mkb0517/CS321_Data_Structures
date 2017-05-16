@@ -1,0 +1,28 @@
+z > < = d10 i10 i10 d5 d20 i5 i5 d1 d9 d5 i20 i20 d11 d21 d20 i5 i20 i1 i1 i7 i7 i15 i15 i25 i25 i30 i30 
+i40 i40 i50 i50 i60 i70 i80 i90 < > = z < > =
+d10 i10 i10 d5 d20 i5 i5 d1 d9 d5 i20 i20 d11 d21 d20 i5 i20 i1 i1 i7 i7 i15 i15 i25 i25 i30 i30 
+i40 i40 i50 i50 i60 i70 i80 i90 i100 i110 i120 i130 i140 i150 d30 d40 d50 d60 d10 d15 d50 d0 d200 z 
+i50 i60 i40 i45 i30 i20 i10 i5 i4 i3 i2 i1 z
+i150 i140 i130 i120 i110 i100 i90 i80 i70 i60 i50 i40 i30 i20 i10 z
+i20 i10 i15 z i20 i30 i10 i5 i7 z i10 i20 d10 d20 z  
+i30 i10 i20 i5 i15 d30 z i30 i10 i20 i25 i35 d30 z
+i20 i30 i10 i25 i35 i5 i3 i2 i4 d10 z
+i20 i10 i30 i15 i25 i35 i5 d20 d1 z
+i30 i10 i20 i15 i14 z
+i20 i30 i10 i5 i15 i25 i35 i3 i7 d15 z
+i20 i30 i10 i15 i25 i35 i26 i14 d14 i17 i16 d20 d25 d26 z
+i20 i30 i10 i5 i15 d20 z i20 i10 i30 i35 i15 i17 i19 d35 z
+i50 i40 i60 i55 i65 i35 i45 i70 i47 i33 i37 i36 d47 z
+i50 i40 i60 i55 i65 i35 i45 i70 i47 i33 i37 i38 d47 z
+i50 i40 i60 i35 i55 i65 i53 d35 z
+i50 i40 i60 i35 i55 i65 i57 d35 z
+i50 i40 i60 i35 i45 i55 i65 i30 i53 i63 i70 i62 d53 z
+i50 i40 i60 i35 i45 i55 i65 i30 i53 i63 i70 i64 d53 z
+i50 i40 i60 i35 i55 i65 i53 i57 d35 z
+i50 i40 i60 i35 d40 z 
+i50 i40 i60 i45 d40 z
+i50 i40 i60 i35 i55 i65 i53 i70 d35 z
+i20 i10 d20 z
+.
+
+Matthew Brown \n

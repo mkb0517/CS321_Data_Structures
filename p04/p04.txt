@@ -1,0 +1,8 @@
+z < > = d10 i10 i10 d5 i5 i5 d5 i5 i3 i3 d4 i7 i7 d6 d8 i20 i20 d15 i15 i15 d17 d21 i30 i30 d21 w > < = 
+d10 d10 d3 d3 d5 d5 d7 d7 z
+i10 d20 i20 i20 d20 d20 i20 i30 i30 d25 d5 d40 d20 z
+i10 i20 d10 i10 d20 i5 i4 d5 i6 d4 i7 d7 i5 d5 d6 z
+i10 i20 i15 i30 i35 i25 d30 z
+.
+
+Matthew Brown \n
