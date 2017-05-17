@@ -1,12 +1,12 @@
 //============================================================================
-// Name        : p05.cpp
+// Name        : AVL_Tree.cpp
 // Author      : Ted Shaneyfelt
 // Version     : 2016a
 // Copyright   : Permission granted to use for course project
 // Description : Command interface for project p05 balanced trees
 //============================================================================
 
-#include "p05.h"
+#include "AVL_Tree.h"
 #include <iostream>
 #include <sstream>
 #include <cstdlib>

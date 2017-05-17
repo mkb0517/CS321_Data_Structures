@@ -1,12 +1,12 @@
 /**===========================================================================
-// Name        : p01.cpp
+// Name        : Custom_Vector_Matrix.cpp
 // Author      : Matthew Brown
 // Version     : 321.01
 // Description : Starter code for project 1 for CS 321: Data Structures
 // Requirements: Requires GTK and gcc to run
 //==========================================================================*/
 
-#include "p01.h"
+#include "Custom_Vector_Matrix.h"
 #include <gtkmm.h>
 #include <gtkmm/drawingarea.h>
 #include <iostream>

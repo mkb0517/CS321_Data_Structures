@@ -1,12 +1,12 @@
 /**
- * p06.h
+ * B-Tree.h
  * @author Matthew Brown
  */
 
-template<typename T = int>
 /**
  * tree class to contain the information of how to store data in our B-tree.
  */
+template<typename T = int>
 class tree {
 public:
     /**
@@ -19,10 +19,11 @@ public:
         T data[2];
         node* child[3];
         /**
-         * overloaded constructor for leaf insertion.
+         * overloaded constructor for leaf insertion with only a value.
          * @param value value we want to insert
          */
         node(T value): type(LEAF1), data{value,0}, child{nullptr, nullptr, nullptr}{}
+
         /**
          * overloaded constructor for interior node insertion.
          * @param value value we want to insert
@@ -36,6 +37,7 @@ public:
      * preorder function that handles tree traversal.
      * @param f function passed to be called at each node.
      * @param p pointer to a node to use f at.
+	 * post: calls f at each node in the b-tree in preorder
      */
     template<typename fn>
     void preorder(fn f, const node* const &p) {
@@ -45,18 +47,21 @@ public:
             preorder(f, p->child[i]); // preorder and postorder visitors don't need the index parameter.
         }
     }
+
     /**
      * Public preorder traversal function for the B-tree.
      * Behaves according to the type associated with a node.
      * If only one value at node, only checks that value. Otherwise it checks both before moving on.
      * @param f function passed to be called at each node.
+	 * post calls the private preorder function with the root pointer
      */
     template<typename fn>
     void preorder(fn f) {
         preorder(f, root);
     }
+
     /**
-     * In order function to handle inorder traversal of our tree.
+     * Inorder function to handle inorder traversal of our tree.
      * @param f function be be called at each node in order.
      * @param p pointer to the node where we want to call f.
      */

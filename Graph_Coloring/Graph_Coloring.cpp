@@ -1,10 +1,10 @@
 //============================================================================
-// Name        : p07.cpp
+// Name        : Graph_Coloring.cpp
 // Author      : Dr. Ted Shaneyfelt
 // Description : Test interface for graphing assignment
 //============================================================================
 
-#include "p07.h"
+#include "Graph_Coloring.h"
 
 #include <iostream>
 #include <string>

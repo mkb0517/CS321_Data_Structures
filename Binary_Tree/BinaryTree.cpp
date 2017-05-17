@@ -1,13 +1,12 @@
 
 //============================================================================
-// Name        : p04.cpp
+// Name        : BinaryTree.cpp
 // Author      : Ted Shaneyfelt
-// Version     : 2016a
 // Copyright   : Permission granted to use for course project
 // Description : Command interface for project p04 trees
 //============================================================================
 
-#include "p04.h"
+#include "BinaryTree.h"
 #include <iostream>
 #include <sstream>
 #include <cstdlib>

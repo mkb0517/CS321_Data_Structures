@@ -1,18 +1,18 @@
 /**
- * p02.h
+ * Linked_List.h
  *
  *  Created on: Jan 25, 2016
  *      Author: Matthew Brown cs321x1
  */
 
 
-template<typename T=int>
 /**
  * Data structure for a linked list.
  * Uses a node struct to handle the data storage.
  * Has public accessor functions ins, del, inorder to handle user input
  * and private accessor functions to deal with the behind-the-scenes stuff
  */
+template<typename T=int>
 class list {
 public:
 	/**
@@ -33,17 +33,19 @@ public:
 		 */
 		node(T data, node* next = nullptr) : data(data), next(next){}
 	};
+
 	/**
 	 * Default constructor for list class.
 	 * Post: Initializes root to a nullptr.
 	 */
 	list() : root(nullptr){}
 
-	template<typename fn>
 	/**
 	 * Goes through the linked list and calls f for each node.
 	 * @param f Function that is passed from main.
+	 * post: Calls the private inorder function with the root pointer
 	 */
+	template<typename fn>
 	void inorder(fn f) {
 		inorder(f, root);
 	}
@@ -51,7 +53,7 @@ public:
 	/**
 	 * Public insert function for the user.
 	 * @param n Data (default int) that the user wants to input into the list.
-	 * Post: calls the private ins function.
+	 * Post: calls the private ins function with the root pointer.
 	 */
 	void ins( T n ) {
 		ins(n, root);
@@ -60,7 +62,7 @@ public:
 	/**
 	 * Public delete function for the user.
 	 * @param n Data point that the user wants to delete.
-	 * Post: calls the private delete function.
+	 * Post: calls the private delete function with the root pointer.
 	 */
     void del( T n ) {
 	    del(n, root);
@@ -68,7 +70,7 @@ public:
 
     /**
      * Public delete-all function for the user.
-     * Post: Calls the private delete-all function.
+     * Post: Calls the private delete-all function with the root pointer. Sets root to nullptr after it is done.
      */
     void del() {
     	del(root);

@@ -1,11 +1,11 @@
 //============================================================================
-// Name        : p03.cpp
+// Name        : Eight_Queens.cpp
 // Author      : Dr. Ted Shaneyfelt
 // Version     : 16.01
 // Copyright   : 2016
 // Description : Pretty-printer for Eight Queens
 //============================================================================
-#include "p03.h"
+#include "Eight_Queens.h"
 #include <iostream>
 using namespace std;
 

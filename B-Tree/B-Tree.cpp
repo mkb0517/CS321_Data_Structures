@@ -1,12 +1,12 @@
 //============================================================================
-// Name        : p06.cpp
+// Name        : B-Tree.cpp
 // Author      : Ted Shaneyfelt
 // Version     : 2016a
 // Copyright   : Permission granted to use for course project
 // Description : Command interface for project p06 B trees
 //============================================================================
 
-#include "p06.h"
+#include "B-Tree.h"
 #include <iostream>
 #include <sstream>
 #include <cstdlib>

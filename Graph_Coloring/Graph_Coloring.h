@@ -1,5 +1,6 @@
 /**
- * p07 Coloring!
+ * p07 Graph_Coloring
+ * Project to demonstrate graph coloring in C++
  * @author Matthew Brown
  */
 
@@ -184,8 +185,8 @@ public:
     	}
     	p->nodecolor = color;
     	solver(p->next);
-    	delete [] adjacent;
-    	delete [] used;
+    	delete[] adjacent;
+    	delete[] used;
     }
 private:
     /**
@@ -256,8 +257,8 @@ public:
      * destructor for solution to handle the dynamic arrays
      */
     ~solution(){
-    	delete [] colors;
-    	delete [] data;
+    	delete[] colors;
+    	delete[] data;
     }
     /**
      * returns the color index of a node.

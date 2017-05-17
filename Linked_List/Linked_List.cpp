@@ -1,12 +1,12 @@
 //============================================================================
-// Name        : p02.cpp
+// Name        : Linked_List.cpp
 // Author      : Ted Shaneyfelt
 // Version     : 2016a
 // Copyright   : Permission granted to use for course project
 // Description : Command interface for project p02 lists
 //============================================================================
 
-#include "p02.h"
+#include "Linked_List.h"
 #include <iostream>
 #include <sstream>
 #include <cstdlib>
